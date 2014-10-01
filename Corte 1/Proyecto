@@ -1,0 +1,111 @@
+                                                <td align="left" width="697" bgcolor="#eeeeee" height="26"><font face="Arial" size="2">Yo soy práctico, 
+	                                                  mecánico y realista</font></td>
+	                                                <td width="36" bgcolor="#eeeeee" height="26">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="rea1" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#ffffff" height="40"><font face="Arial" size="2">Tengo facilidad para 
+	                                                  utilizar imaginativamente, restos de materiales, habitualmente 
+	                                                  desechables</font></td>
+	                                                <td width="36" bgcolor="#ffffff" height="40">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="rea2" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#eeeeee" height="26"><font face="Arial" size="2">Me gusta trabajar con 
+	                                                  números, registros o máquinas, de forma ordenada</font></td>
+	                                                <td width="36" bgcolor="#eeeeee" height="26">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="con1" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#ffffff" height="40"><font face="Arial" size="2">Yo valoro las artes 
+	                                                  creativas como drama, música, arte o el trabajo de escritores creativos</font></td>
+	                                                <td width="36" bgcolor="#ffffff" height="40">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="art1" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#eeeeee" height="40"><font face="Arial" size="2">Durante la enseñanza 
+	                                                  básica y media, me interesé por los problemas personales de mis 
+	                                                  compañeros</font></td>
+	                                                <td width="36" bgcolor="#eeeeee" height="40">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="soc1" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#ffffff" height="40"><font face="Arial" size="2">Entre mis asignaturas 
+	                                                  favoritas se cuenta(n) alguna(s) de las siguientes: biología, química, 
+	                                                  física, computación</font></td>
+	                                                <td width="36" bgcolor="#ffffff" height="40">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="inv2" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#eeeeee" height="26"><font face="Arial" size="2">Pertenezco o me 
+	                                                  gustaría pertenecer a algún grupo ecológico</font></td>
+	                                                <td width="36" bgcolor="#eeeeee" height="26">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="soc2" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#ffffff" height="40"><font face="Arial" size="2">Habitualmente asisto a 
+	                                                  alguno(s) de los siguientes eventos: galerías de arte, exposiciones 
+	                                                  literarias, conciertos, salas de teatro.</font></td>
+	                                                <td width="36" bgcolor="#ffffff" height="40">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="art2" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#eeeeee" height="26"><font face="Arial" size="2">Generalmente soy 
+	                                                  puntual y me molesta la impuntualidad en otras personas</font></td>
+	                                                <td width="36" bgcolor="#eeeeee" height="26">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="con2" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#ffffff" height="26"><font face="Arial" size="2">Yo valoro el éxito en 
+	                                                  política, en liderazgo o negocios</font></td>
+	                                                <td width="36" bgcolor="#ffffff" height="26">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="emp2" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#eeeeee" height="26"><font face="Arial" size="2">Habitualmente leo 
+	                                                  documentos de divulgación científica</font></td>
+	                                                <td width="36" bgcolor="#eeeeee" height="26">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="inv3" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
+	                                                          nunca</option> <option value="2">Algunas veces</option> <option value="3">Muchas veces</option> <option value="4">Siempre</option></select></p></center></div></td></tr>
+	                                              <tr align="middle">
+	                                                <td align="left" width="697" bgcolor="#ffffff" height="40"><font face="Arial" size="2">Yo valoro cosas 
+	                                                  prácticas que se puedan ver o tocar, como plantas y animales que uno puede 
+	                                                  plantar o criar, o cosas que uno puede construir o mejorar</font></td>
+	                                                <td width="36" bgcolor="#ffffff" height="40">
+	                                                  <div align="center">
+	                                                    <center>
+	                                                      <p><select size="1" name="rea3" style="font-size: 10 px"> <option value="" selected="">Seleccione 
+	                                                        opción</option> <option value="0">Nunca</option> <option value="1">Casi 
