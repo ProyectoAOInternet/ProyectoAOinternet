@@ -1,0 +1,183 @@
+*{
+margin: 0px;
+padding: 0px;	
+}
+body{
+	/*background: url(p1.jpg) no-repeat;*/
+	background:black;
+	background-size: 1200px 600px;
+	background-position: center;
+}
+/* En el div uno va el titulo de la pagina*/
+div#uno{
+	background-color: LightGrey;
+	margin: auto;
+	margin-top: 10px;
+	width: 900px;
+	height: 50px;
+	border-top-style: groove;
+	border-bottom-style: groove;
+
+}
+h1{
+	text-align: center;
+}
+
+/* Dentro del div dos va la tabla donde explica la calificacion*/
+div#dos{
+	background-color: white;
+	margin: auto;
+	margin-top: 5px;
+	width: 900px;
+	height: 150px;
+}
+div#num1{
+	margin-left: 10px;
+	width: 200px;
+	height: 26px;
+	float: left;
+	border:1px solid white;
+}
+
+div#num2{
+	margin-left: 10px;
+	width: 500px;
+	height: 26px;
+	float: left;
+	border:1px solid white;
+}
+/* Desde aca va la personalizacion de la tabla de calificacion*/
+table{
+	margin: auto;
+	margin-left: 15px;
+	width: 300;
+	height: 50px;
+	/*border: 1px solid black;*/
+
+}
+td#titulo1{
+	margin: 0px;
+	padding: 0px;	
+	width: 210px;
+	height: 10px;
+	border: 1px solid black;
+	background-color: SteelBlue;
+	font-color: white;
+	text-align: center;
+
+}
+td#titulo2{
+	margin: 0px;
+	padding: 0px;	
+	width: 90px;
+	height: 10px;
+	border: 1px solid black;
+	background-color: SteelBlue;
+	font-color:white;
+	text-align: center;
+
+}
+td#uno{
+	margin: 0px;
+	padding: 0px;	
+	width: 170px;
+	height: 10px;
+	border: 1px solid black;
+}
+td#dos{
+	margin: 0px;
+	padding: 0px;	
+	width: 90px;
+	height: 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+/* Desde aca va la personalizacion del formulario*/
+form#personal{
+	background-color: white;
+	width: 910px;
+	height: 2450px;
+	background-position: center;
+	margin: auto;
+}
+fieldset{
+	width: 90%;
+}
+fieldset legend{
+	color: blue;
+}
+label{
+	/*display: block;*/
+	width: 150px;
+	margin-left: 10px;
+}
+input{
+	width: 400px;
+	margin-left: 5px;
+}
+div#tres{
+	background-color: white;
+	margin: auto;
+	margin-top: 10px;
+	width: 900px;
+	height: 180px;
+	border-top-style: groove;
+	border-bottom-style: groove;
+
+}
+div#general{
+	width: 900px;
+	height: 26px;
+	border: 1px solid white;
+}
+label#pregunta{
+	font color: white;
+	text-align: left;
+	}
+div#pregunta{
+	background-color: RoyalBlue;
+	width: 600px;
+	height: 25px;
+	float: left;
+	border: 1px solid white;
+}
+div#valor{
+	background-color: RoyalBlue;
+	margin left: 10px;
+	width: 70px;
+	height: 25px;
+	float: left;
+	border: 1px solid white;
+}
+div#num{
+	background-color: white;
+	width: 40px;
+	height: 25px;
+	border: 1px dotted black; /* dotted es para un borde punteado*/
+	float: left;
+}
+label#num{
+	text-align: left;
+}
+div#subpreg{
+	background-color: white;
+	width: 570px;
+	height: 25px;
+	border: 1px dotted black; /* dotted es para un borde punteado*/
+	float: left;
+}
+div#valor2{
+	margin-left: 10px;
+	width: 70px;
+	height: 25px;
+	float: left;
+	border:1px solid red;
+}
+select{
+	width: 70px;
+	height: 25px;
+	border: 1px dotted black;
+	text-align: center;
+	font-size: 15px;
+}

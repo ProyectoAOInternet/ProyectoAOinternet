@@ -9,7 +9,7 @@
 	<div id="uno">
 			<h1>CUESTIONARIO DE APTITUDES</h1>
 	</div>
-
+<!-- Tabla donde Muestra la escala de los valores -->
 	<div id="dos">
 		<table>
 			<tr>
@@ -38,30 +38,954 @@
 
 		</table>
 	</div>
+	<br>
+<!-- Creacion del formulario de los datos personales y la encuesta -->
 	<form id="personal" method="get">
 		<fieldset>
-			<label for="nombre">Nombre:
-			<input type="text" name"nombre" placeholder="Ingresa tus nombres" autofocus required>
+			<legend>Datos Personales</legend>
+					<br>
+			<!-- Datos personales-->
+				<div id="general"> 
+					<div id="num1"> <label for="nombre">Nombre:</div>
+					<div id="num2"> <input type="text" name"nombre" id="nombre" placeholder="Ingresa tus nombres" autofocus required> </div> <br>
+				</div>
+				
+				<div id="general">
+					<div id="num1"> <label for="Papellido">Primer Apellido: </div>	
+					<div id="num2"> <input type="text" name "Papellido" id="Papellido"></div>
+				</div>
+					
+				<div id="general">
+					<div id="num1"><label for="Sapellido">Segundo Apellido:</div>
+					<div id="num2"><input type="text" name"Sapellido" id="Sapellido"></div>
+				</div>	
+				
+				<div id="general">
+					<div id="num1"><label for="fecnac">Fecha de Nacimiento:</div>
+					<div id="num2"><input type="date" name "fecnac" id="fecnac"><br></div>
+				</div>
 
-			<label for="Papellido">Primer Apellido:
-			<input type="text" name "Papellido">
+				<div id="general">
+					<div id="num1"><label for="email">email:</div>
+					<div id="num2"><input type="email" name "email" id="email" placeholder="Ingresa tu correo electronico"><br></div>
+				</div>
 
-			<label for="Sapellido">Segundo Apellido:
-			<input type="text" name"Sapellido">
+				<div id="general">
+					<div id="num1"><label for="pais">pais:</div>
+					<div id="num2"><input type="text" name "pais" id="pais" placeholder="Ingresa tu pais de nacimiento"><br></div>
+				</div>
 
-			<label for="fecnac">Fecha de Nacimiento:
-			<input type="date" name "fecnac">
+				<div id="general">
+					<div id="num1"><label for="ciudad">ciudad:</div>
+					<div id="num2"><input type="text" name "ciudad" id="ciudad" placeholder="Ingresa tu ciudad de nacimiento"><br></div>
+				</div>				
+					
+<!-- Cuestionario Seccion A-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección A. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta A1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para expresarte con facilidad en clase</label></div>
+						<div id"valor2"> 
+							<select name="a1" id="a1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
 
-			<label for="email">email:
-			<input type="email" name "email" placeholder="Ingresa tu correo electronico">
+<!-- Pregunta A2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para redactar composiciones o artículos periodísticos</label></div>
+						<div id"valor2"> 
+							<select name="a2" id="a2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
 
-			<label for="pais">pais:
-			<input type="text" name "pais" placeholder="Ingresa tu pais de nacimiento">
+<!-- Pregunta A3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para concersar y expresarte claramente con tus amigos</label></div>
+						<div id"valor2"> 
+							<select name="a3" id="a3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
 
-			<label for="ciudad">ciudad:
-			<input type="text" name "ciudad" placeholder="Ingresa tu ciudad de nacimiento">
+<!-- Pregunta A4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para escribir cuentos, narraciones o historietas</label></div>
+						<div id"valor2"> 
+							<select name="a4" id="a4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
 
-			<input type="submit" name="aceptar">
+<!-- Pregunta A5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para reconocer y apreciar la buena literatura</label></div>
+						<div id"valor2"> 
+							<select name="a5" id="a5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion B-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección B. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta B1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para ejecutar con exactitud y rapidez operaciones matemáticas</label></div>
+						<div id"valor2"> 
+							<select name="b1" id="b1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta B2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para hacer cálculos mentales</label></div>
+						<div id"valor2"> 
+							<select name="b2" id="b2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta B3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para comprender formulas matemáticas</label></div>
+						<div id"valor2"> 
+							<select name="b3" id="b3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta B4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para calcular costos</label></div>
+						<div id"valor2"> 
+							<select name="b4" id="b4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta B5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para distribuir el dinero presupuestado en varias actividades</label></div>
+						<div id"valor2"> 
+							<select name="b5" id="b5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion C-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección C. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta C1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para asimilar contenidos de textos técnicos (radio, televisión)</label></div>
+						<div id"valor2"> 
+							<select name="c1" id="c1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta C2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para hacer trabajos con instrumentos de medición precisa (Balanzas, compases)</label></div>
+						<div id"valor2"> 
+							<select name="c2" id="c2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta C3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para entender el funcionamiento de algún aparato mediante la observacion</label></div>
+						<div id"valor2"> 
+							<select name="c3" id="c3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta C4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para armar y desarmar juguetes mecánicos o instrumentos complicados</label></div>
+						<div id"valor2"> 
+							<select name="c4" id="c4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta C5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para localizar desperfectos y realizar arreglos en equipos  domesticos</label></div>
+						<div id"valor2"> 
+							<select name="c5" id="c5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion D-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección D. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta D1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para plasmar creativamente una idea en una pintura, escultura, etc.</label></div>
+						<div id"valor2"> 
+							<select name="d1" id="d1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta D2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para reconocer la calidad de una pintura, una escultura o un poema</label></div>
+						<div id"valor2"> 
+							<select name="d2" id="d2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta D3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para realizar pinturas, dibujos, grabados, modelado en barro o plastilina</label></div>
+						<div id"valor2"> 
+							<select name="d3" id="d3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta D4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg" > <font color="RoyalBlue">Efectuar modificaciones en tu voz y figura, bajo direccion en las artes escénicas</label></div>
+						<div id"valor2"> 
+							<select name="d4" id="d4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta D5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para componer versos, realizar escenografías o decoraciones</label></div>
+						<div id"valor2"> 
+							<select name="d5" id="d5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion E-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección E. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta E1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para cantar en un grupo o coral</label></div>
+						<div id"valor2"> 
+							<select name="e1" id="e1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta E2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para aprender a tocar un instrumento musical</label></div>
+						<div id"valor2"> 
+							<select name="e2" id="e2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta E3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para reconocer cuándo se desentona en piezas musicales o canciones</label></div>
+						<div id"valor2"> 
+							<select name="e3" id="e3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta E4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg" > <font color="RoyalBlue">Para aprender a entonar correctamente canciones</label></div>
+						<div id"valor2"> 
+							<select name="e4" id="e4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta E5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para reconocer y apreciar la buena música</label></div>
+						<div id"valor2"> 
+							<select name="e5" id="e5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion F-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección F. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta F1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para entender principios y experimentos de biología</label></div>
+						<div id"valor2"> 
+							<select name="f1" id="f1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta F2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para comprender y aprender procesos en relación con la física</label></div>
+						<div id"valor2"> 
+							<select name="f2" id="f2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta F3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para entender principios y experimentos de química</label></div>
+						<div id"valor2"> 
+							<select name="f3" id="f3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta F4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg" > <font color="RoyalBlue">Para tener visión de los sistemas naturales, el medio ambiente y las formas de vida</label></div>
+						<div id"valor2"> 
+							<select name="f4" id="f4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta F5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Investigar, desarrollar conceptos, teorías y métodos para la prevención sanitaria y salud</label></div>
+						<div id"valor2"> 
+							<select name="f5" id="f5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion G-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección G. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta G1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para actividades que requieren destreza manual, como cortar, coser, pulir</label></div>
+						<div id"valor2"> 
+							<select name="g1" id="g1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta G2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para manejar con habilidad herramientas de carpintería</label></div>
+						<div id"valor2"> 
+							<select name="g2" id="g2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta G3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para manejar con facilidad herramientas mecánicas como pinzas y llaves</label></div>
+						<div id"valor2"> 
+							<select name="g3" id="g3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta G4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg" > <font color="RoyalBlue">Para manejar con habilidad piezas pequeñas, como agujas, joyas, piezas de reloj</label></div>
+						<div id"valor2"> 
+							<select name="g4" id="g4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta G5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para diseñar con facilidad trazos geométricos con la ayuda de la escuadra, la regla</label></div>
+						<div id"valor2"> 
+							<select name="g5" id="g5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion H-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección H. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta H1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para comprender y analizar los fenómenos económicos</label></div>
+						<div id"valor2"> 
+							<select name="h1" id="h1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta H2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para entender las causas que determinan los fenómenos sociales</label></div>
+						<div id"valor2"> 
+							<select name="h2" id="h2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta H3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Indagar los fenómenos sociales, el comportamiento de individuos y grupos humanos</label></div>
+						<div id"valor2"> 
+							<select name="h3" id="h3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta H4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg" > <font color="RoyalBlue">Acercarte a costumbres, ideologías,relaciones que se tejen en grupos,y la cultura en gral</label></div>
+						<div id"valor2"> 
+							<select name="h4" id="h4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta H5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para interactuar con las personas y adelantar proyectos de carácter social y político</label></div>
+						<div id"valor2"> 
+							<select name="h5" id="h5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion I-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección I. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta I1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para tratar y hablar con tacto y asertividad a las personas</label></div>
+						<div id"valor2"> 
+							<select name="i1" id="i1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta I2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para ser miembro activo y útil de un club o sociedad</label></div>
+						<div id"valor2"> 
+							<select name="i2" id="i2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta I3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para colaborar con otros para bien de ellos o de ti mismo</label></div>
+						<div id"valor2"> 
+							<select name="i3" id="i3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta I4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg" > <font color="RoyalBlue">Para escuchar a otros con paciencia y comprender sus puntos de vista</label></div>
+						<div id"valor2"> 
+							<select name="i4" id="i4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta I5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para conversar en las reuniones y fiestas con acierto y naturalidad</label></div>
+						<div id"valor2"> 
+							<select name="i5" id="i5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion J-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección J. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta J1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">participar en actividades que requieren valor, audacia y dedicación (trepar,escalar,etc)</label></div>
+						<div id"valor2"> 
+							<select name="j1" id="j1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta J2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">dominarte en situaciones peligrosas sin perder serenidad,control de la situación</label></div>
+						<div id"valor2"> 
+							<select name="j2" id="j2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta J3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Dominar tus nervios,continuar con la actividad que por algún peligro todos quieren huir</label></div>
+						<div id"valor2"> 
+							<select name="j3" id="j3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta J4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg" > <font color="RoyalBlue">Para recuperar pronto la tranquilidad y presencia de ánimo despues de un susto</label></div>
+						<div id"valor2"> 
+							<select name="j4" id="j4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta J5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para no contagiarte del miedo y pánico de los demás e infundir ánimo</label></div>
+						<div id"valor2"> 
+							<select name="j5" id="j5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+<!-- Cuestionario Seccion K-->	
+				<div id="tres">
+					<div id="general">
+						<div id="pregunta"><label id="pregunta" > <font color="white" >Sección K. ¿ Qué tan apto te consideras?:</font></div>
+						<div id="valor"><label id="pregunta" > <font color="white" >Valor</font></div>
+					</div>
+<!-- Pregunta K1-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">1.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para ser jefe competente de un grupo o comunidad</label></div>
+						<div id"valor2"> 
+							<select name="k1" id="k1" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta K2-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">2.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para organizar festivales, encuentros deportivos, excursiones o campañas</label></div>
+						<div id"valor2"> 
+							<select name="k2" id="k2" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta K3-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">3.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para convencer a otros para que hagan lo que crees que deben hacer</label></div>
+						<div id"valor2"> 
+							<select name="k3" id="k3" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta K4-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">4.</label> </div>
+						<div id="subpreg" > <font color="RoyalBlue">Para dar órdenes con seguridad y naturalidad</label></div>
+						<div id"valor2"> 
+							<select name="k4" id="k4" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+
+<!-- Pregunta J5-->
+					<div id="general">
+						<div id="num"><label id="num" > <font color="RoyalBlue">5.</label> </div>
+						<div id="subpreg"> <font color="RoyalBlue">Para dirigir un grupo en situaciones difíciles</label></div>
+						<div id"valor2"> 
+							<select name="k5" id="k5" size="1">
+								<option value="v1" selected="selected"></option >
+								<option value="v2">1</option>
+								<option value="v3">2</option>
+								<option value="v4">3</option>
+								<option value="v5">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+
+				<br>	
+				<br>					
+				<input type="submit" name="aceptar">
 		</fieldset>
 	</form>
 </body>
